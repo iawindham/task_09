@@ -1,0 +1,13 @@
+Package: insultfunction
+Title: The Insult Function
+Version: 1.2.3.4567
+Authors@R: person("Ian", "Windham", email = "iwindham@vols.utk.edu", role = c("aut", "cre"))
+Description: This package provides a function that insults the user.
+Depends: R (>= 3.3.3)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
