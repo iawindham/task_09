@@ -1,0 +1,30 @@
+---
+title: "insultfunction"
+author: "Ian Windham"
+date: "March 30, 2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+insult_function asks the user how they are feeling, returns one of three different responses
+
+The function responds to the inputs "Well", "Poorly", and any other input given.  Input is not case-sensitive.
+
+When the function is called without any arguments, it will ask "How are you doing(Well or Poorly?):""
+
+Below are the responses given to three different inputs.
+```{r}
+insult_function(prompt = 'well')
+```
+```{r}
+insult_function(prompt = 'poorly')
+
+```
+```{r}
+insult_function(prompt = 'asdfsdfasdf')
+
+```
+
